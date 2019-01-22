@@ -9,15 +9,20 @@ public class Animal {
 	String name;
 	boolean wild;
 	String sound;
+	int legs;
 	
-	public Animal(String name, boolean wild, String sound) {
+	public Animal(String name, boolean wild, String sound, int legs) {
 		super();
 		this.name = name;
 		this.wild = wild;
 		this.sound = sound;
+		this.legs = legs;
 	}
 	public String getName() {
 		return name;
+	}
+	public int getLegs() {
+		return legs;
 	}
 	public void setName(String name) {
 		this.name = name;
@@ -33,6 +38,9 @@ public class Animal {
 	}
 	public void setSound(String sound) {
 		this.sound = sound;
+	}
+	public void setNrOfLegs(int legs) {
+		this.legs = legs;
 	}
 	
 }
