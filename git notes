@@ -1,0 +1,46 @@
+1. sign up
+
+https://guides.github.com/activities/hello-world/
+
+git clone https://github.com/jeimed/Tutorials.git
+git branch -a
+git checkout -b cj-feature origin/master
+git push origin cj-feature
+
+
+sign up 
+	jeimed Greens4l
+
+create repository
+upload files
+
+create a feature branch
+
+update feature branch
+create pull request
+
+merge pull request
+
+
+create a key
+	from gitbash
+	Paste the text below, substituting in your GitHub email address.
+	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+	ssh-keygen -t rsa -b 4096 -C "johni.n.amin@outlook.com"
+
+	When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
+	Enter a file in which to save the key (/c/Users/you/.ssh/id_rsa):[Press enter]
+
+add ssh to ssh-agent
+
+# start the ssh-agent in the background
+eval $(ssh-agent -s)
+Agent pid 59566
+
+Add your SSH private key to the ssh-agent.
+ssh-add ~/.ssh/id_rsa
+
+copy public key to git hub account
+Copy the SSH key to your clipboard.
+clip < ~/.ssh/id_rsa.pub
