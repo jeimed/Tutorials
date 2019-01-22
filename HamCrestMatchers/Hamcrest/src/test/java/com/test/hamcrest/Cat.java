@@ -8,7 +8,7 @@ package com.test.hamcrest;
 public class Cat extends Animal {
 
 	public Cat() {
-		super("cat", false, "meow");
+		super("cat", false, "meows");
 	}
 
 	public String makeSound() {
