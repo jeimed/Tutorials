@@ -183,6 +183,7 @@ public class HamcrestMatcherTest {
 	}
 	
 	@Test
+	// test will pass if text are NOT equal
 	public void given2Strings_whenNotEqual_thenCorrect() {
 		String str1 = "text";
 		String str2 = "texts";
