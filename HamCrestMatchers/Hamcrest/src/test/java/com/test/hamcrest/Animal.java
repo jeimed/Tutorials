@@ -21,6 +21,7 @@ public class Animal {
 	public String getName() {
 		return name;
 	}
+	//will get the nr of legs of animal
 	public int getLegs() {
 		return legs;
 	}
@@ -39,6 +40,7 @@ public class Animal {
 	public void setSound(String sound) {
 		this.sound = sound;
 	}
+	// will set nr of legs of animal
 	public void setNrOfLegs(int legs) {
 		this.legs = legs;
 	}
